@@ -1,43 +1,20 @@
-/*
-
-Name: Kenneth Lai
-
-Student ID: 0378288
-
-Introduction: In this program, we are creating a base class called Staff and using derived classes to inherit from it.
-We will then prommpt the user for input and display the correct type of object information
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
-
 #include<iostream>
-using namespace std;
 #include <string>
 #include "Engineer.h"
 #include "Staff.h"
 #include "Manager.h"
+
+using namespace std;
 
 void staffDisplay(Staff* s);
 
 
 int main(){
     //local variables
-    string sname, ename, mname, project_name, dep_name;
-    int s_age, e_age, m_age;
-    int s_ID, e_ID, m_ID;
-    int team_num;
+string sname, ename, mname, project_name, dep_name;
+int s_age, e_age, m_age;
+int s_ID, e_ID, m_ID;
+int team_num;
 
 cout << "Name of staff employee: " << endl;
 cin >> sname;
@@ -104,9 +81,6 @@ delete manager;
 staff = nullptr;
 engineer = nullptr;
 manager = nullptr;
-
-
-
 
 }
 
