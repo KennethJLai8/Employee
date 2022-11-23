@@ -18,42 +18,42 @@ int team_num;
 
 cout << "Name of staff employee: " << endl;
 cin >> sname;
-cin >> sname;
 
-cout << "Age: " << endl;
+cout << "\nAge: " << endl;
 cin >> s_age;
 
-cout << "ID: " << endl;
+cout << "\nID: " << endl;
 cin >> s_ID;
 cin.ignore();
 
-cout << "Name of engineer: " << endl;
+cout << "\nName of engineer: " << endl;
 getline(cin, ename);
 
-cout << "Age: " << endl;
+cout << "\nAge: " << endl;
 cin >> e_age;
 
-cout << "ID: " << endl;
+cout << "\nID: " << endl;
 cin >> e_ID;
 
-cout << "Project Name: " << endl;
+cout << "\nProject Name: " << endl;
 cin >> project_name;
 cin.ignore();
 
-cout << "Name of manager: " << endl;
+cout << "\nName of manager: " << endl;
 getline(cin, mname);
 
-cout << "Age: " << endl;
+cout << "\nAge: " << endl;
 cin >> m_age;
 
-cout << "ID: " << endl;
+cout << "\nID: " << endl;
 cin >> m_ID;
 
-cout << "Department Name: " << endl;
+cout << "\nDepartment Name: " << endl;
 cin >> dep_name;
 
-cout << "Number of Teams: " << endl;
+cout << "\nNumber of Teams: " << endl;
 cin >> team_num;
+cout << endl;
 
 //Creation of objects and passing user input to appropriate constructors
 Staff* staff = new Staff(sname, s_age, s_ID);

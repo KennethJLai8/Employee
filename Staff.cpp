@@ -1,7 +1,7 @@
 #include "Staff.h"
 #include<iostream>
-using namespace std;
 #include<string>
+using namespace std;
 
 
 Staff::Staff()
